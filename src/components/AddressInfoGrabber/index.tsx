@@ -25,7 +25,9 @@ export const AddressInfoGrabber = () => {
     } catch (error) {
       setIsLoading(false)
       setAddress(null)
-      alert('Ocorreu um erro interno, por favor tente novamente.')
+      alert(
+        'Ocorreu um erro interno. Por favor, verifique se o CEP está correto e tente novamente.',
+      )
     }
   }
 
