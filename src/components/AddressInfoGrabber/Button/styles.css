@@ -1,0 +1,29 @@
+.ButtonComponent {
+  width: 100%;
+  padding: 15px 30px;
+  margin: 30px 0;
+
+  border: none;
+  border-radius: 600px;
+
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: opacity 0.25s ease-in-out;
+}
+
+.ButtonComponentAbled {
+  background: #4682b4;
+}
+.ButtonComponentAbled:hover {
+  opacity: 0.6;
+}
+
+.ButtonComponentDisabled {
+  background: #b0c4de;
+  cursor: not-allowed;
+}

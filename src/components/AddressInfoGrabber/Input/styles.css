@@ -1,0 +1,9 @@
+.InputComponent {
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: 15px 30px;
+
+  border: 2px solid #4682b4;
+  border-radius: 8px;
+}

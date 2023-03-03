@@ -1,0 +1,10 @@
+body {
+  background: #add8e6;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
